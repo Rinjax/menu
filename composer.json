@@ -1,0 +1,20 @@
+{
+    "name": "rinjax/menu",
+    "description": "package for building html menus/navigation for laravel views",
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Rinjax\\Menu\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rinjax\\Menu\\MenuServiceProvider"
+            ]
+        }
+    }
+}
