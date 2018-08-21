@@ -1,5 +1,5 @@
 <?php
-namespace App\Packages\Menu;
+namespace Rinjax\Menu;
 class Menu
 {
     use RenderTrait;
@@ -138,7 +138,7 @@ class Menu
             'route' => null,
             'leftIcon' => null,
             'rightIcon' => null,
-            'classes' => [],
+            'classes' => ['nav-item'],
             'styles' => [],
         ];
     }

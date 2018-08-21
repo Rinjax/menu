@@ -1,5 +1,5 @@
 <?php
-namespace App\Packages\Menu;
+namespace Rinjax\Menu;
 trait RenderTrait
 {
     /**
@@ -57,7 +57,7 @@ trait RenderTrait
 
     protected function liOpening()
     {
-        return "<li ";
+        return "<li class='nav-item'";
     }
 
     protected function tagClose()
@@ -97,7 +97,7 @@ trait RenderTrait
 
     protected function aTagOpening($route)
     {
-        return "<a href='" . $route . "'>";
+        return "<a class='nav-link' href='" . $route . "'>";
     }
 
     protected function aTagOpeningDropdown()
